@@ -9,7 +9,7 @@ describe "PrimeFactor" do
  	@test = 2
  end
 it "nnumber is equal or greater than two" do
-	@test.must_be :<=, @number
+	assert_operator @test, :<=, 10
 end
 
 end

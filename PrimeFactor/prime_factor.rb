@@ -1,10 +1,13 @@
 class PrimeFactor
 
-	def initialize(number)
-		@number = number
-	end
+	
 
-	def factors
-
+ def factors(number)
+     test = 2
+     if test <= number 
+     	true
+     else
+     	false
+     end
 	end
 end
