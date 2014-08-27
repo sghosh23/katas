@@ -15,4 +15,12 @@ class PrimeFactor
      	end
        test +=1
 	end
+    end
+ 
+
+
+ end
+
+
+
 end
