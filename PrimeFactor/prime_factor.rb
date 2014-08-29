@@ -1,26 +1,17 @@
 class PrimeFactor
 
 	
-
- def primes(number)
-     test = 2
-
-     while (number > 1)
-     	prime_flag = true
-
-     while (test <= number/2)
-     	if (number % test == 0)
-     		prime_flag = fa/lse
-     	 break
-     	end
-       test +=1
-	end
+  def self.factors(number)
+    factors = []
+    divisor = 2   
+    while number > 1
+      while number % divisor == 0
+        factors << divisor
+        number /= divisor
+      end
+      divisor += 1
     end
- 
-
-
- end
-
-
+    factors
+  end
 
 end
