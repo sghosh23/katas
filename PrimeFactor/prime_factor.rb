@@ -1,7 +1,7 @@
 class PrimeFactor
 
 	
-  def self.factors(number)
+  def factors(number)
     factors = []
     divisor = 2   
     while number > 1
