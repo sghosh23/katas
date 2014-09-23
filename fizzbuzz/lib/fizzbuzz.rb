@@ -1,9 +1,9 @@
 
 
 def fizzbuzz(number)
-  return 'Fizz' if is_divisible_by_three?(number)
+  return 'FizzBuzz' if is_divisible_by_fifteen?(number)	
   return 'Buzz' if is_divisible_by_five?(number)
-  return 'FizzBuzz' if is_divisible_by_fifteen?(number)
+  return 'Fizz' if is_divisible_by_three?(number)
   number
 end
 
